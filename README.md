@@ -9,4 +9,4 @@ Crie uma pasta chamada " projects " e dentro dele adicione os seus sites e proje
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+O Html é open-sourced software lincesa sobre o [MIT license](https://opensource.org/licenses/MIT).
