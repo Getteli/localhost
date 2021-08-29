@@ -9,4 +9,4 @@ Crie uma pasta chamada " projects " e dentro dele adicione os seus sites e proje
 
 ## License
 
-O Html é open-sourced software lincesa sobre o [MIT license](https://opensource.org/licenses/MIT).
+O Html é open-sourced software licença [MIT license](https://opensource.org/licenses/MIT).
