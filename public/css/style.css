@@ -1,10 +1,46 @@
 .list-subgroup{
-    margin-left: 20px;
-    padding-left: 10px;
-    margin-right: 20px;
-    padding-right: 10px;
+	margin: 20px 20px auto 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 320px;
+	width: max-content;
+}
+
+a{
+	text-decoration: none;
+	color: #323232;
+	cursor: pointer;
+}
+
+.itens{
+	cursor: pointer;
 }
 
 .mgtop{
-    margin-top: 50px;
+	margin-top: 50px;
+}
+
+.parent{
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: auto;
+}
+
+.arrow{
+	text-align: right;
+}
+@media only screen and (max-width: 800px) {
+	.col-pers{
+		display: inline-block;
+		text-align: center;
+	}
+	.parent{
+		grid-template-columns: 40% 60%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.list-subgroup{
+		min-width: auto;
+		width: calc(320px - 100px);
+	}
 }

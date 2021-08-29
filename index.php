@@ -22,7 +22,7 @@
 <body>
 	<div class="container mgtop">
 		<div class="row justify-content-center">
-			<div class="col-lg-4 col-md-6 col-sm-6 col-6">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-pers">
 				<a href="index.php">
 					<img src="public/image/logoilion.png" alt="ilionTecnologia" width="250px">
 				</a>
