@@ -20,30 +20,32 @@
 		<title>ilion - localhost</title>
 	</head>
 <body>
-	<div class="container mgtop">
-		<div class="row justify-content-center">
-			<div class="col-lg-4 col-md-6 col-sm-6 col-pers">
-				<a href="index.php">
-					<img src="public/image/logoilion.png" alt="ilionTecnologia" width="250px">
-				</a>
+	<div class="container">
+		<div class="m-5">
+			<div class="row justify-content-center">
+				<div class="col text-center">
+					<a href="index.php">
+						<img src="public/image/logoilion.png" alt="ilionTecnologia" width="250px">
+					</a>
+				</div>
+			</div>
+
+			<div class="list-group m-5" id="list">
 			</div>
 		</div>
 
-		<div class="list-group mgtop" id="list">
+		<div class="footer">
+			<footer class="py-3">
+				<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+					<li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+				</ul>
+				<p class="text-center text-muted">
+					<a href="#">
+						© <?=date('Y');?> Ilion tecnologia, powered by - <img src="public/image/logotipoilion.png" alt="ilion icon">
+					</a>
+				</p>
+			</footer>
 		</div>
-	</div>
-
-	<div class="container footer">
-		<footer class="py-3 my-4">
-			<ul class="nav justify-content-center border-bottom pb-3 mb-3">
-				<li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
-			</ul>
-			<p class="text-center text-muted">
-				<a href="#">
-					© <?=date('Y');?> Ilion tecnologia, powered by - <img src="public/image/logotipoilion.png" alt="ilion icon">
-				</a>
-			</p>
-		</footer>
 	</div>
 	<script src="public/js/bootstrap.bundle.min.js"></script>
 	<script src="public/js/bootstrap.min.js"></script>
