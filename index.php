@@ -33,6 +33,18 @@
 		</div>
 	</div>
 
+	<div class="container footer">
+		<footer class="py-3 my-4">
+			<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+				<li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+			</ul>
+			<p class="text-center text-muted">
+				<a href="#">
+					© <?=date('Y');?> Ilion tecnologia, powered by - <img src="public/image/logotipoilion.png" alt="ilion icon">
+				</a>
+			</p>
+		</footer>
+	</div>
 	<script src="public/js/bootstrap.bundle.min.js"></script>
 	<script src="public/js/bootstrap.min.js"></script>
 	<script src="public/js/open.js"></script>
