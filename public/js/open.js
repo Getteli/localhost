@@ -130,7 +130,6 @@ document.body.addEventListener('click', function (e) {
 	function darkmode() {
 		var body_ = document.body;
 		var text_ = document.getElementsByTagName('a');
-		var slide_ = document.getElementById("dm");
 		var divs_ = document.getElementsByClassName("itens");
 		var slider_ = document.getElementById("slider");
 		var icontop_ = document.getElementById("logoiliontop");
@@ -162,7 +161,6 @@ document.body.addEventListener('click', function (e) {
 			setCookie("darkmode", true, 999);
 		}
 		line_.classList.toggle("dark-mode");
-		slide_.classList.toggle("dark-mode");
 		slider_.classList.toggle("dark-mode");
 
 	}
@@ -172,6 +170,7 @@ document.body.addEventListener('click', function (e) {
 	}, false);
 
 	if (getCookie("darkmode") == "true"){
+		document.getElementById("dm").checked = true;
 		darkmode();
 	}
 // #endregion

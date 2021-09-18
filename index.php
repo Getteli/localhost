@@ -24,7 +24,7 @@
 
 			<label class="switch">
 				<input type="checkbox" id="dm">
-				<span id="slider" class="slider round"></span>
+				<span id="slider" class="slider"></span>
 			</label>
 
 			<div class="m-5">
