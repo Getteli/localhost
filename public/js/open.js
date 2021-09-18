@@ -171,7 +171,7 @@ document.body.addEventListener('click', function (e) {
 		darkmode();
 	}, false);
 
-	if (getCookie("darkmode")){
+	if (getCookie("darkmode") == "true"){
 		darkmode();
 	}
 // #endregion
